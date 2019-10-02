@@ -1,2 +1,2 @@
-# DATA512-HCDS
-Repository DATA512 assignments
+# data-512-a1
+Repository DATA512 A1 assignments
