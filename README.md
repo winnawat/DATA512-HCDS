@@ -13,7 +13,7 @@ Terms of use: https://foundation.wikimedia.org/wiki/Terms_of_Use/en
 
 ## Data file
 The final combined data file is en-wikipedia_traffic_200712-201908.csv
-THe fields are:
+The fields are:
 - year: The year in which the traffic data is collected. Formated as YYYY
 - month: The month in which the traffic data is collected. Formatted as mm
 - pagecount_desktop_views: The sum of the view count from desktop users collected from the legacy pagecount API.
@@ -22,6 +22,8 @@ THe fields are:
 - pageview_mobile_views: The sum of the view count from mobile users collected from the pageview API.
 - pagecount_all_views:  The sum of the view count from both desktop and mobile users collected from the legacy pagecount API.
 - pageview_all_views: The sum of the view count from both desktop and mobile users collected from the pageview API.
+
+5 JSON files are also included. These are the data generated from the APIs.
 
 ## Any other things to note
 - data from the Pageview API excludes spiders/crawlers, while data from the Pagecounts API does not.
