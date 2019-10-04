@@ -7,6 +7,10 @@ To visualize the traffic data on wikipedia page on the monthly basis. This shoul
 
 ## Data source
 
+WIkimedia API: https://www.mediawiki.org/wiki/REST_API
+
+Terms of use: https://foundation.wikimedia.org/wiki/Terms_of_Use/en
+
 ## Data file
 The final combined data file is en-wikipedia_traffic_200712-201908.csv
 THe fields are:
@@ -18,3 +22,8 @@ THe fields are:
 - pageview_mobile_views: The sum of the view count from mobile users collected from the pageview API.
 - pagecount_all_views:  The sum of the view count from both desktop and mobile users collected from the legacy pagecount API.
 - pageview_all_views: The sum of the view count from both desktop and mobile users collected from the pageview API.
+
+## Any other things to note
+- data from the Pageview API excludes spiders/crawlers, while data from the Pagecounts API does not.
+- Zero values in the CSV table represent NaN. That is, the data is unavailable. 
+  - `df.replace(0, np.nan, inplace=True)` can be used to remove the zeroes to create the visualization.
