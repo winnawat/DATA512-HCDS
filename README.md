@@ -7,9 +7,9 @@ To visualize the traffic data on wikipedia page on the monthly basis. This shoul
 
 ## Data source
 
-WIkimedia API: https://www.mediawiki.org/wiki/REST_API
+Wikimedia API: https://www.mediawiki.org/wiki/REST_API
 
-Terms of use: https://foundation.wikimedia.org/wiki/Terms_of_Use/en
+By using the REST API, you agree to Wikimedia's general [Terms of Use](https://foundation.wikimedia.org/wiki/Terms_of_Use/en) and [Privacy Policy](https://foundation.wikimedia.org/wiki/Privacy_policy).
 
 ## Data file
 The final combined data file is en-wikipedia_traffic_200712-201908.csv
